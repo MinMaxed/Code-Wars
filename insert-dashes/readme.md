@@ -1,0 +1,4 @@
+Problem Domain: Write a function insertDash(num)/InsertDash(int num) that will insert dashes ('-') between each two odd numbers in num. For example: if num is 454793 the output should be 4547-9-3. Don't count zero as an odd number.
+
+
+Overview: Most difficult Kata yet. Fell down a rabbit hole of trying to take previous& current values, checking if odd or even, assigning it that status, comparing, then pushing new values into the variables for the previous & current numbers, and yeah, super messy and not productive. Searched for [i-1] and learned that wasnt a thing really, but that [i+1] is, and learning that made EVERYTHING much more simple, as it allowed you to maintain a position in the array you make, and then compare/push in the dashes as needed all from that reference point. 
